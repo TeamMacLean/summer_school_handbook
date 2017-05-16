@@ -1,0 +1,36 @@
+# Surface Immunity {-}
+
+**Led by Cyril Zipfel**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+
+Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.
+
+Aenean sed leo sit amet dolor congue semper. Curabitur non malesuada erat. Phasellus scelerisque rutrum tristique. Duis posuere quam tellus, eu posuere lorem convallis facilisis. Duis euismod tincidunt neque, eu pellentesque nisi mollis sed. Suspendisse eu nunc rutrum massa iaculis rhoncus rutrum nec velit. Nulla et erat quis urna malesuada auctor. Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
+
+```{r mainsi, echo=FALSE, fig.cap="This image should really be one that nicely summarises your topic. Not Roger.", dpi=96 }
+knitr::include_graphics("assets/RPF-thumbnail.jpeg")
+```
+
+## Keynote Lecture {-}
+
+### Keynote Speaker Name - Keynote Speaker Title {-}
+**Keynote Speaker Affiliation**
+
+### About Keynote Speaker {-}
+
+> bio bio bio
+
+## Practical Session - Practical Session Title {-}
+
+**Led by Practical Session Lead**
+
+### Aims and Objectives {-}
+
+1. Teach
+2. Learn
+3. Profit
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+
+Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.

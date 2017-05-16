@@ -1,0 +1,166 @@
+# Course schedule {-}
+
+## Monday 31st July {-}
+
+*Introductions*
+
+```{r, echo=FALSE}
+times <- read.csv('data/sched.csv', sep=",",header=TRUE, stringsAsFactors = FALSE)
+times$Date <- as.Date(times$Date, "%d/%m/%Y")
+day <- dplyr::filter(times, Date == "2017-07-31")
+#knitr::kable(
+#  day[,2:4], booktabs = TRUE
+#)
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+NB All activities will take place in the Training Suite, unless otherwise stated
+
+## Tuesday 1st August {-}
+
+*Resistance Proteins. Led by Jonathan Jones*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-01", Lead == "Jonathan Jones")
+pander::pander(day[,2:4],justify = c('left', 'left', 'left'))
+
+```
+
+## Wednesday 2nd August {-}
+
+*Resistance Proteins. Led by Jonathan Jones*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-02", Lead == "Jonathan Jones" )
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+```
+
+*Genomic Resources and Bioinformatics for Plant Microbe Interactions. Led by Dan MacLean*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-02", Lead != "Jonathan Jones")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+
+## Thursday 3rd August {-}
+
+*Effectors and Plant Immunity. Led by Sophien Kamoun*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-03", Lead == "Sophien Kamoun")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+## Friday 4th August {-}
+
+*Effectors and Plant Immunity. Led by Sophien Kamoun*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-04", Lead == "Sophien Kamoun")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+*Surface Immunity. Led by Cyril Zipfel*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-04", Lead == "Cyril Zipfel")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+```
+
+## Saturday 5th August {-}
+
+*Surface Immunity. Led by Cyril Zipfel*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-05", Lead == "Cyril Zipfel")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+```
+
+## Sunday 6th August {-}
+
+*Excursion*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-06")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+## Monday 7th August {-}
+
+*Cellular Defence. Led by Silke Robatzek*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-07", Lead == "Silke Robatzek")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+## Tuesday 8th August {-}
+
+*Cellular Defence. Led by Silke Robatzek*
+
+```{r, echo=FALSE}
+
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+*Wheat Genomics. Led by Ksenia Krasileva*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-08", Lead == "Ksenia Krasileva")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+## Wednesday 9th August {-}
+
+*Proteomics. Led by Frank Menke*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-09")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+## Thursday 10th August {-}
+
+*Translations and Tipping the Balance. Led by Matt Moscou and Peter Van Esse*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-10")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+## Friday 11th August {-}
+
+*Translations and Tipping the Balance. Led by Peter Van Esse and Matt Moscou*
+
+```{r, echo=FALSE}
+
+day <- dplyr::filter(times, Date == "2017-08-11")
+pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
+
+```
+
+
+
