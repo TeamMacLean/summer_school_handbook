@@ -115,7 +115,7 @@ pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
 *Cellular Defence. Led by Silke Robatzek*
 
 ```{r, echo=FALSE}
-
+day <- dplyr::filter(times, Date == "2017-08-08", Lead == "Silke Robatzek")
 pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
 
 ```

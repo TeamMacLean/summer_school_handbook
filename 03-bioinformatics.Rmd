@@ -24,7 +24,7 @@ knitr::include_graphics("assets/algo.png")
 
 > bio bio bio
 
-## Practical Session - From Sequence Data to Candidate Protein {-}
+## Practical Session - From Sequence Data to Candidate Gene {-}
 
 **Led by Dan MacLean**
 
