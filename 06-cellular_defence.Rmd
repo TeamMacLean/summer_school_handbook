@@ -19,6 +19,12 @@ Small Rab GTPases and Syntaxins act at multiple stages of vesicle trafficking, i
 
 > bio bio bio
 
+(ref:srfigcap) FLS2 endocytsosis. **a)** The PRR FLS2 and its co-receptor BAK1 localise at the plasma membrane. Upon flg22 perception, a receptor complex is formed and the activated receptor is internalised into clathrin-coated vesicles (CCV) and sorted into intraluminal vesicles of multi-vesicular bodies (MVBs) via the trans-Golgi-network (TGN)/early endosomes (EE) and the late endosomes (LE). Components required for FLS2 internalisation and sorting are indicated in red, endosomal marker proteins are indicated in lilac. **b)** Confocal micrographs (spinning disc microscopy) of FLS2-GFP before and after elicitation with flg22.
+
+```{r, srfig, fig.cap="(ref:srfigcap)", dpi=175, echo=FALSE}
+knitr::include_graphics("assets/sr_fig1_prac.png")
+```
+
 ## Practical Session - Live Cell Imaging and Investigation of Subcellular Membrane Trafficking  {-}
 
 **Led by** [Gildas Bourdais](gildas.bourdais@sainsbury-laboratory.ac.uk), [Michaela Kopischke](michaela.kopischke@sainsbury-laboratory.ac.uk), [Agnieszka Siwoszek](agnieszka.siwoszek@sainsbury-laboratory.ac.uk), [Jelle Postma](jelle.postma@sainsbury-laboratory.ac.uk), [Katarzyna Rybak](katarzyna.rybak@sainsbury-laboratory.ac.uk), [Janina Tamborski](janina.tamborski@sainsbury-laboratory.ac.uk)
@@ -30,9 +36,3 @@ Small Rab GTPases and Syntaxins act at multiple stages of vesicle trafficking, i
   3. Provide a tool-box to understand and study the plant’s endomembrane trafficking machinery
 
 In the practical sessions we will investigate the (co-)localisation of FLS2-GFP and various endosomal marker proteins following flg22 treatment using live-cell imaging approaches (See Figure \@ref(fig:srfig) b). Chemical inhibitors and genetic interference with the endomembrane trafficking machinery will help us to dissect and understand the route of activated FLS2 in a temporal and spatial resolution. 
-
-(ref:srfigcap) FLS2 endocytsosis. **a)** The PRR FLS2 and its co-receptor BAK1 localise at the plasma membrane. Upon flg22 perception, a receptor complex is formed and the activated receptor is internalised into clathrin-coated vesicles (CCV) and sorted into intraluminal vesicles of multi-vesicular bodies (MVBs) via the trans-Golgi-network (TGN)/early endosomes (EE) and the late endosomes (LE). Components required for FLS2 internalisation and sorting are indicated in red, endosomal marker proteins are indicated in lilac. **b)** Confocal micrographs (spinning disc microscopy) of FLS2-GFP before and after elicitation with flg22.
-
-```{r, srfig, fig.cap="(ref:srfigcap)", dpi=150, echo=FALSE}
-knitr::include_graphics("assets/sr_fig1_prac.png")
-```
