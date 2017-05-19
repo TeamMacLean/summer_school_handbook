@@ -2,11 +2,15 @@
 
 **Led by Silke Robatzek**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus Plants mount multi-layered immune responses that comprise passive and active defences. Plasma membrane (PM) localised pattern recognition receptors (PRRs) enable plants to perceive <u>P</u>athogen-<u>A</u>ssociated <u>M</u>olecular <u>P</u>atterns (PAMPs) displayed by potential microbial invaders to activate defence responses. The PRR FLAGELLIN SENSING2 (FLS2) confers immunity against bacterial infection through perception of a 22 amino acid epitope of flagellin (flg22).
 
-```{r maincd, echo=FALSE, fig.cap="This image should really be one that nicely summarises your topic. Not Roger.", dpi=96 }
-knitr::include_graphics("assets/RPF-thumbnail.jpeg")
-```
+In recent years the importance of PRR subcellular trafficking to plant immunity has become apparent. PRRs are secreted through the endoplasmatic reticulum (ER) and the Golgi apparatus to the plasma membrane, where they recognize their cognate ligands. At the plasma membrane, PRRs can be recycled or internalized via endocytic pathways. The endocytic pathway in plants comprises early and late endocytic compartments.
+
+FLS2 constitutes a well-known example to study endocytic trafficking. From the PM FLS2 is internalized in a clathrin-dependent manner and targeted towards distinct subcellular fates in dependence of its activation status. At the stage of the trans-golgi-network (TGN)/ early endosome (EE) non-activated FLS2 is recycled back to the plasma membrane. Activated (flg22-bound) FLS2 is sorted to the late endosomal pathway and internalized into intra-luminal vesicles of multi-vesicular bodies (MVBs) destined for vacuolar degradation, which is regulated by the <u>e</u>ndosomal <u>s</u>orting <u>c</u>omplexes <u>r</u>equired for <u>t</u>ransport (ESCRT) sorting machinery (See Figure \@ref(fig:srfig) a).
+
+Mutants lacking clathrin- or ESCRT- components are more susceptible to bacterial infection, indicating the importance of endomembrane trafficking regulators for the establishment of efficient defence responses. 
+
+Small Rab GTPases and Syntaxins act at multiple stages of vesicle trafficking, including cargo selection, vesicle formation, vesicle movement, tethering and membrane fusion. Distinct members of these families are associated with specific membrane compartments. Therefore these proteins, such as the Rab5 GTPases ARA6 and ARA7 or the syntaxin SYP61 which are localised at the MVB/LE-, EE/LE and TGN, respectively), can be used as marker proteins to identify specific membrane compartments. 
 
 ## Keynote Lecture {-}
 
@@ -26,16 +30,6 @@ knitr::include_graphics("assets/RPF-thumbnail.jpeg")
   1. Perform advanced fluorescence imaging using confocal laser scanning and spinning disc microscopy
   2. Generate images suitable for qualitative and quantitative analyses
   3. Provide a tool-box to understand and study the plant’s endomembrane trafficking machinery
-
-Plants mount multi-layered immune responses that comprise passive and active defences. Plasma membrane (PM) localised pattern recognition receptors (PRRs) enable plants to perceive <u>P</u>athogen-<u>A</u>ssociated <u>M</u>olecular <u>P</u>atterns (PAMPs) displayed by potential microbial invaders to activate defence responses. The PRR FLAGELLIN SENSING2 (FLS2) confers immunity against bacterial infection through perception of a 22 amino acid epitope of flagellin (flg22).
-
-In recent years the importance of PRR subcellular trafficking to plant immunity has become apparent. PRRs are secreted through the endoplasmatic reticulum (ER) and the Golgi apparatus to the plasma membrane, where they recognize their cognate ligands. At the plasma membrane, PRRs can be recycled or internalized via endocytic pathways. The endocytic pathway in plants comprises early and late endocytic compartments.
-
-FLS2 constitutes a well-known example to study endocytic trafficking. From the PM FLS2 is internalized in a clathrin-dependent manner and targeted towards distinct subcellular fates in dependence of its activation status. At the stage of the trans-golgi-network (TGN)/ early endosome (EE) non-activated FLS2 is recycled back to the plasma membrane. Activated (flg22-bound) FLS2 is sorted to the late endosomal pathway and internalized into intra-luminal vesicles of multi-vesicular bodies (MVBs) destined for vacuolar degradation, which is regulated by the <u>e</u>ndosomal <u>s</u>orting <u>c</u>omplexes <u>r</u>equired for <u>t</u>ransport (ESCRT) sorting machinery (See Figure \@ref(fig:srfig) a).
-
-Mutants lacking clathrin- or ESCRT- components are more susceptible to bacterial infection, indicating the importance of endomembrane trafficking regulators for the establishment of efficient defence responses. 
-
-Small Rab GTPases and Syntaxins act at multiple stages of vesicle trafficking, including cargo selection, vesicle formation, vesicle movement, tethering and membrane fusion. Distinct members of these families are associated with specific membrane compartments. Therefore these proteins, such as the Rab5 GTPases ARA6 and ARA7 or the syntaxin SYP61 which are localised at the MVB/LE-, EE/LE and TGN, respectively), can be used as marker proteins to identify specific membrane compartments. 
 
 In the practical sessions we will investigate the (co-)localisation of FLS2-GFP and various endosomal marker proteins following flg22 treatment using live-cell imaging approaches (See Figure \@ref(fig:srfig) b). Chemical inhibitors and genetic interference with the endomembrane trafficking machinery will help us to dissect and understand the route of activated FLS2 in a temporal and spatial resolution. 
 

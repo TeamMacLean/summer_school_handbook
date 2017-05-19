@@ -94,7 +94,7 @@
 <li class="chapter" data-level="" data-path="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html"><a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#diane-saunders---field-pathogenomics"><i class="fa fa-check"></i>Diane Saunders - Field Pathogenomics</a></li>
 <li class="chapter" data-level="" data-path="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html"><a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#about-diane-saunders"><i class="fa fa-check"></i>About Diane Saunders</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html"><a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#practical-session---from-sequence-data-to-candidate-protein"><i class="fa fa-check"></i>Practical Session - From Sequence Data to Candidate Protein</a><ul>
+<li class="chapter" data-level="" data-path="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html"><a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#practical-session---from-sequence-data-to-candidate-gene"><i class="fa fa-check"></i>Practical Session - From Sequence Data to Candidate Gene</a><ul>
 <li class="chapter" data-level="" data-path="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html"><a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#aims-and-objectives-1"><i class="fa fa-check"></i>Aims and Objectives</a></li>
 </ul></li>
 </ul></li>
@@ -209,7 +209,7 @@
 <div class="figure"><span id="fig:mainbio"></span>
 <img src="assets/algo.png" alt="Graphical summary of a de novo assembly algorithm. Sequence reads are broken down into constituent k-mers and a network of overlapping k-mers is produced. The paths in the graph are traversed and the k-mers collected into a growing string representing a long sequence in the original data and therefore genome." width="336" />
 <p class="caption">
-Figure 4: Graphical summary of a <em>de novo</em> assembly algorithm. Sequence reads are broken down into constituent <em>k</em>-mers and a network of overlapping <em>k</em>-mers is produced. The paths in the graph are traversed and the <em>k</em>-mers collected into a growing string representing a long sequence in the original data and therefore genome.
+Figure 3: Graphical summary of a <em>de novo</em> assembly algorithm. Sequence reads are broken down into constituent <em>k</em>-mers and a network of overlapping <em>k</em>-mers is produced. The paths in the graph are traversed and the <em>k</em>-mers collected into a growing string representing a long sequence in the original data and therefore genome.
 </p>
 </div>
 <div id="keynote-lecture-1" class="section level2 unnumbered">
@@ -225,8 +225,8 @@ Figure 4: Graphical summary of a <em>de novo</em> assembly algorithm. Sequence r
 </blockquote>
 </div>
 </div>
-<div id="practical-session---from-sequence-data-to-candidate-protein" class="section level2 unnumbered">
-<h2>Practical Session - From Sequence Data to Candidate Protein</h2>
+<div id="practical-session---from-sequence-data-to-candidate-gene" class="section level2 unnumbered">
+<h2>Practical Session - From Sequence Data to Candidate Gene</h2>
 <p><strong>Led by Dan MacLean</strong></p>
 <div id="aims-and-objectives-1" class="section level3 unnumbered">
 <h3>Aims and Objectives</h3>
@@ -239,17 +239,17 @@ Figure 4: Graphical summary of a <em>de novo</em> assembly algorithm. Sequence r
 <p>These methods are actually only PREDICTIONS of function. Looking a bit like something else is only a clue to what something does. It frequently fails us.</p>
 <p>In this practical we will look at the powerful technique of mutational genomics. This is possibly the coolest thing ever as it involves mutating a living organism so that it is different from other things and then sequencing the genome to pinpoint the exact changes that cause the difference. We don’t have the scope or chemicals to do the mutation bit, so we’ll pick up with the genomics and use Galaxy and Galaxy tools to carry out the analysis that takes us from sequence data to actual candidate mutations in the genome sequence.</p>
 <p>With mutational genomics we deal initially with the effect of the gene on the whole organism. By performing mutagenesis on our favourite organism then carrying out a genetic screen <span class="citation">(Page and Grossniklaus <a href="#ref-Page:2002ji">2002</a>)</span> that selects individuals that have changed in the phenotype we are interested in, we have our first foothold on function. We can study those individuals and apply the principles of genetics, use modern high-throughput sequencing and bioinformatics tools to identify the gene causing that phenotype change (or at least ones involved in the process we have messed up).</p>
-<p>We will use tools in the Galaxy <span class="citation">(Goecks et al. <a href="#ref-Goecks:2010ea">2010</a>)</span> framework including FastQC for quality control of sequence data (Figure <a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#fig:fqc">5</a>) <span class="citation">(Andrews <a href="#ref-FastQC">2017</a>)</span>, BWA for read mapping and alignment <span class="citation">(H. Li and Durbin <a href="#ref-Li:2009fi">2009</a>)</span> and CandiSNP <span class="citation">(Etherington et al. <a href="#ref-Etherington:2014ba">2014</a>)</span> to identify candidate mutations (Figure <a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#fig:candisnp">6</a>) .</p>
+<p>We will use tools in the Galaxy <span class="citation">(Goecks et al. <a href="#ref-Goecks:2010ea">2010</a>)</span> framework including FastQC for quality control of sequence data (Figure <a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#fig:fqc">4</a>) <span class="citation">(Andrews <a href="#ref-FastQC">2017</a>)</span>, BWA for read mapping and alignment <span class="citation">(H. Li and Durbin <a href="#ref-Li:2009fi">2009</a>)</span> and CandiSNP <span class="citation">(Etherington et al. <a href="#ref-Etherington:2014ba">2014</a>)</span> to identify candidate mutations (Figure <a href="genomic-resources-and-bioinformatics-for-plant-microbe-interactions-.html#fig:candisnp">5</a>) .</p>
 <div class="figure"><span id="fig:fqc"></span>
 <img src="assets/fastqc.png" alt="FastQC Quality Control of sequence reads" width="244" />
 <p class="caption">
-Figure 5: FastQC Quality Control of sequence reads
+Figure 4: FastQC Quality Control of sequence reads
 </p>
 </div>
 <div class="figure"><span id="fig:candisnp"></span>
 <img src="assets/candisnp.png" alt="CandiSNP visualisation of SNPs" width="277" />
 <p class="caption">
-Figure 6: CandiSNP visualisation of SNPs
+Figure 5: CandiSNP visualisation of SNPs
 </p>
 </div>
 
