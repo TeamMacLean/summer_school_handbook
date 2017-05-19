@@ -2,8 +2,6 @@
 
 **Led by Silke Robatzek**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus Plants mount multi-layered immune responses that comprise passive and active defences. Plasma membrane (PM) localised pattern recognition receptors (PRRs) enable plants to perceive <u>P</u>athogen-<u>A</u>ssociated <u>M</u>olecular <u>P</u>atterns (PAMPs) displayed by potential microbial invaders to activate defence responses. The PRR FLAGELLIN SENSING2 (FLS2) confers immunity against bacterial infection through perception of a 22 amino acid epitope of flagellin (flg22).
-
 In recent years the importance of PRR subcellular trafficking to plant immunity has become apparent. PRRs are secreted through the endoplasmatic reticulum (ER) and the Golgi apparatus to the plasma membrane, where they recognize their cognate ligands. At the plasma membrane, PRRs can be recycled or internalized via endocytic pathways. The endocytic pathway in plants comprises early and late endocytic compartments.
 
 FLS2 constitutes a well-known example to study endocytic trafficking. From the PM FLS2 is internalized in a clathrin-dependent manner and targeted towards distinct subcellular fates in dependence of its activation status. At the stage of the trans-golgi-network (TGN)/ early endosome (EE) non-activated FLS2 is recycled back to the plasma membrane. Activated (flg22-bound) FLS2 is sorted to the late endosomal pathway and internalized into intra-luminal vesicles of multi-vesicular bodies (MVBs) destined for vacuolar degradation, which is regulated by the <u>e</u>ndosomal <u>s</u>orting <u>c</u>omplexes <u>r</u>equired for <u>t</u>ransport (ESCRT) sorting machinery (See Figure \@ref(fig:srfig) a).
