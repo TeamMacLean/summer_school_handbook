@@ -42,12 +42,7 @@ In this practical we will look at the powerful technique of mutational genomics.
 
 With mutational genomics we deal initially with the effect of the gene on the whole organism. By performing mutagenesis on our favourite organism then carrying out a genetic screen [@Page:2002ji] that selects individuals that have changed in the phenotype we are interested in, we have our first foothold on function. We can study those individuals and apply the principles of genetics, use modern high-throughput sequencing and bioinformatics tools to identify the gene causing that phenotype change (or at least ones involved in the process we have messed up).
 
-We will use tools in the Galaxy [@Goecks:2010ea] framework including FastQC for quality control of sequence data (Figure \@ref(fig:fqc)) [@FastQC], BWA for read mapping and alignment [@Li:2009fi] and CandiSNP [@Etherington:2014ba] to identify candidate mutations (Figure \@ref(fig:candisnp)) .
-
-
-```{r fqc, echo=FALSE, fig.cap="FastQC Quality Control of sequence reads", dpi=150 }
-knitr::include_graphics("assets/fastqc.png")
-```
+We will use tools in the Galaxy [@Goecks:2010ea] framework including FastQC for quality control of sequence data [@FastQC], BWA for read mapping and alignment [@Li:2009fi] and CandiSNP [@Etherington:2014ba] to identify candidate mutations (Figure \@ref(fig:candisnp)) .
 
 ```{r candisnp, echo=FALSE, fig.cap="CandiSNP visualisation of SNPs", dpi=150 }
 knitr::include_graphics("assets/candisnp.png")

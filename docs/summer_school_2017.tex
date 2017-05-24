@@ -100,6 +100,17 @@
 \let\oldhref\href
 \renewcommand{\href}[2]{#2\footnote{\url{#1}}}
 
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
 \begin{document}
 \maketitle
 
@@ -1242,14 +1253,10 @@ causing that phenotype change (or at least ones involved in the process
 we have messed up).
 
 We will use tools in the Galaxy \citep{Goecks:2010ea} framework
-including FastQC for quality control of sequence data (Figure
-\ref{fig:fqc}) \citep{FastQC}, BWA for read mapping and alignment
-\citep{Li:2009fi} and CandiSNP \citep{Etherington:2014ba} to identify
-candidate mutations (Figure \ref{fig:candisnp}) .
-
-\begin{figure}
-\includegraphics[width=5.08in]{assets/fastqc} \caption{FastQC Quality Control of sequence reads}\label{fig:fqc}
-\end{figure}
+including FastQC for quality control of sequence data \citep{FastQC},
+BWA for read mapping and alignment \citep{Li:2009fi} and CandiSNP
+\citep{Etherington:2014ba} to identify candidate mutations (Figure
+\ref{fig:candisnp}) .
 
 \begin{figure}
 \includegraphics[width=5.77in]{assets/candisnp} \caption{CandiSNP visualisation of SNPs}\label{fig:candisnp}
@@ -1273,50 +1280,130 @@ porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque
 congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut
 accumsan dui pretium nec. Integer luctus eros non convallis ornare.
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi
-consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at
-erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante
-malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a
-turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat
-erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet
-egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae
-orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac,
-convallis lacus. In hac habitasse platea dictumst.
-
-Aenean sed leo sit amet dolor congue semper. Curabitur non malesuada
-erat. Phasellus scelerisque rutrum tristique. Duis posuere quam tellus,
-eu posuere lorem convallis facilisis. Duis euismod tincidunt neque, eu
-pellentesque nisi mollis sed. Suspendisse eu nunc rutrum massa iaculis
-rhoncus rutrum nec velit. Nulla et erat quis urna malesuada auctor.
-Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
-
-\begin{figure}
-\includegraphics[width=2.19in]{assets/RPF-thumbnail} \caption{This image should really be one that nicely summarises your topic. Not Roger.}\label{fig:maineff}
-\end{figure}
-
 \section*{Keynote Lecture}\label{keynote-lecture-2}
 \addcontentsline{toc}{section}{Keynote Lecture}
 
-\subsection*{Keynote Speaker Name - Keynote Speaker
-Title}\label{keynote-speaker-name---keynote-speaker-title}
-\addcontentsline{toc}{subsection}{Keynote Speaker Name - Keynote Speaker
-Title}
+\subsection*{Jens Boch - Keynote Speaker
+Title}\label{jens-boch---keynote-speaker-title}
+\addcontentsline{toc}{subsection}{Jens Boch - Keynote Speaker Title}
 
 \textbf{Keynote Speaker Affiliation}
 
-\subsection*{About Keynote Speaker}\label{about-keynote-speaker}
-\addcontentsline{toc}{subsection}{About Keynote Speaker}
+\subsection*{About Jens Boch}\label{about-jens-boch}
+\addcontentsline{toc}{subsection}{About Jens Boch}
 
 \begin{quote}
 bio bio bio
 \end{quote}
 
-\section*{Practical Session - Practical Session
-Title}\label{practical-session---practical-session-title}
-\addcontentsline{toc}{section}{Practical Session - Practical Session
-Title}
+\section*{\texorpdfstring{Practical Session - Studying Effector Function
+\emph{in
+planta}}{Practical Session - Studying Effector Function in planta}}\label{practical-session---studying-effector-function-in-planta}
+\addcontentsline{toc}{section}{Practical Session - Studying Effector
+Function \emph{in planta}}
 
-\textbf{Led by Practical Session Lead}
+\textbf{Led by Joe Win}
+
+One of nature's many secrets in biology is how filamentous plant
+pathogens cause disease on their hosts. We are making tremendous
+progress towards understanding this process largely due to breakthroughs
+in ``effector biology'' \citep{Hogenhout:2009em, Win:2012jd}. Effectors
+are proteins secreted by pathogens to suppress host immune systems and
+manipulate plant physiology to enable pathogen colonization (Figure
+\ref{fig:maineff}A).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{figure}
+\includegraphics[width=4.75in]{assets/eff} \caption{\textbf{\emph{The concept of effectors in plant immunity}}.
+Infectious pathogens such as bacteria, fungi, oomycete, and nematodes
+deliver effectors at the interface of the host plant (apoplastic
+effectors, AE) or inside the cell (cytoplasmic effectors, CE).
+Host-translocated (cytoplasmic) effectors are delivered into the host
+cytoplasm through a type-III secretion pilus or specialized infectious
+structures called haustoria that form within the cell. Pathogen
+effectors traffic to various compartments, bind, and manipulate
+different host proteins called targets. Depending on their localization
+in the cells, these targets are designated as apoplastic effector target
+(AET) and cytoplasmic effector target (CET). Effector--target
+interactions impact the outcome of the interaction between the pathogen
+and its host. In susceptible genotypes (A), these molecular interactions
+can alter plant cell processes and suppress immune responses, leading to
+effector-triggered susceptibility (ETS) and host colonization. In
+resistant genotypes (B), these interactions are perceived by key sensing
+receptors of the immune system that, in turn, stop pathogen growth. Cell
+surface pattern recognition receptors (PRRs) detect pathogen-associated
+molecular patterns (PAMPs), apoplastic effectors, and/or apoplastic
+effector--target interactions to initiate PRRtriggered immunity (PTI).
+Intracellular nucleotide-binding receptors (NB-LRR) induce
+NB-LRR-triggered immunity (ETI) on recognition of cytoplasmic effectors
+and/or cytoplasmic effectors--target interactions (Reproduced from
+\citet{Win:2012jd}).}\label{fig:maineff}
+\end{figure}
+
+We can predict an ``effectorome'', or effector repertoire, of a pathogen
+from its genome sequence based on several criteria that we know about
+effectors \citep{Saunders:2012bw}. These criteria include, presence of a
+secretory signal peptide, lack of transmembrane domains, lack of
+mitochondrial targeting signals, presence of known/conserved motifs such
+as RXLR, upregulation of their transcripts during infection, specific
+localization in host cells, similarity to known effectors of other plant
+pathogen species, etc. However, one persistent question is: What are the
+intrinsic functions of these effectors? To find out, we express tagged
+effectors in plants and observe their effect on plant morphology and
+physiology {[}such as hypersensitive response (HR) cell death{]} using a
+technique called the agrobacteria-mediated transient transformation
+procedure \citep{Kapila:1997}, also known as agroinfiltration. In
+addition, to work out what these effectors might be doing in plants, we
+derive clues from the effector-associated plant proteins that we
+identify by performing co-immunoprecipitation (co-IP) of tagged
+effectors followed by mass spectrometry (MS) \citep{Win:2011dw}. These
+plant proteins constitute potential targets of the effectors. We confirm
+the association between the effectors and the potential targets in an
+independent system known as yeast-two-hybrid interaction assays
+\citep{Fields:1989dm}, or in vitro interaction assays. Once we know the
+effector targets, we investigate them to find out if they play important
+roles in plant-pathogen interactions by knocking down their transcripts
+in plants by virus-induced gene silencing (VIGS) \citep{Lindbo:1993kp}
+and observing the effects on plant responses to infection.
+
+We are also interested in how plants defend themselves against
+pathogens, and how the pathogens suppress these defences. Plant immunity
+is governed by recognition of effectors by plant immune receptors
+(Figure \ref{fig:maineff}B). Once recognized, several signalling
+processes are initiated by the receptors and defence is mounted against
+the invading pathogen. We have identified a novel network of plant
+immune components that is involved in defence signalling of Solanaceous
+plants \citep{Wu:2016bio}. We study their function and activities by
+deploying the methods such as co-IP, HR assays and VIGS as described
+above.
+
+In these practical sessions, we will guide you through the techniques
+and methods described above to probe plant-microbe interactions with a
+focus on effectors and plant immunity.
 
 \subsection*{Aims and Objectives}\label{aims-and-objectives-2}
 \addcontentsline{toc}{subsection}{Aims and Objectives}
@@ -1325,35 +1412,31 @@ Title}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Teach
+  To be familiar with current knowledge of effectors and their roles in
+  infection of host plants.
 \item
-  Learn
+  To understand the roles of helper components in plant immune
+  signalling network.
 \item
-  Profit
+  To understand the theory and practice of methods and techniques that
+  are routinely used to study effectors and plant immunity
 \end{enumerate}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis
-sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor.
-Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae
-diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare
-odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam
-interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit
-amet varius diam magna et lectus. Sed vehicula velit velit, convallis
-mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in
-mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel
-porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque
-congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut
-accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+In this practical session, you will be invited to choose one of the
+following techniques for hands-on experience guided by the instructors.
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi
-consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at
-erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante
-malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a
-turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat
-erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet
-egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae
-orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac,
-convallis lacus. In hac habitasse platea dictumst.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  In planta co-immunoprecipitation of effectors and associated plant
+  proteins, and analysis of effector-plant protein interactions in vitro
+\item
+  Yeast two-hybrid assay to study protein-protein interaction
+\item
+  Agroinfiltration and virus-induced gene silencing to study gene
+  functions in plants
+\end{enumerate}
 
 \chapter*{Surface Immunity}\label{surface-immunity}
 \addcontentsline{toc}{chapter}{Surface Immunity}
@@ -1634,22 +1717,58 @@ Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
 \section*{Keynote Lecture}\label{keynote-lecture-5}
 \addcontentsline{toc}{section}{Keynote Lecture}
 
-\subsection*{Keynote Speaker Name - Keynote Speaker
-Title}\label{keynote-speaker-name---keynote-speaker-title-1}
-\addcontentsline{toc}{subsection}{Keynote Speaker Name - Keynote Speaker
-Title}
+\subsection*{Daniel Croll - Retracing genome evolution of pathogens
+during rapid disease emergence in agricultural
+ecosystems}\label{daniel-croll---retracing-genome-evolution-of-pathogens-during-rapid-disease-emergence-in-agricultural-ecosystems}
+\addcontentsline{toc}{subsection}{Daniel Croll - Retracing genome
+evolution of pathogens during rapid disease emergence in agricultural
+ecosystems}
 
-\textbf{Keynote Speaker Affiliation}
+\textbf{University of Neuchâtel, Switzerland}
 
-\subsection*{About Keynote Speaker}\label{about-keynote-speaker-1}
-\addcontentsline{toc}{subsection}{About Keynote Speaker}
+Most plants face attacks by pathogens. In agriculture, outbreaks of
+fungal diseases are frequent and pose a significant threat to
+sustainable food production. What enables pathogens to overcome host
+defenses and cause damage is poorly understood. A key evolutionary step
+for pathogens is to evolve effectors that specifically target and
+disable the plant immune system. We use experimental and population
+genomics tools to identify the genes underlying pathogenicity. Our main
+model is the fungus \emph{Zymoseptoria tritici}, which causes one of the
+most important diseases on wheat. Based on large collections of
+sequenced pathogen genomes, we performed genome-wide association studies
+(GWAS) to identify the genes linked to the breakdown of host resistance.
+These genes encoded small secreted proteins that were highly expressed
+during plant infection. Then, we assembled reference-quality genomes to
+analyze the chromosomal regions surrounding effector genes. We found
+that these regions were undergoing rapid chromosomal sequence evolution
+driven by repetitive elements. We found substantial gene deletion
+polymorphism segregating in pathogen populations and, hence, functional
+differences among pathogen strains. Genes located in highly dynamic
+chromosomal regions provide pathogen populations with evolutionary
+potential to rapidly adapt to environmental changes or new hosts.
+
+\subsection*{About Daniel Croll}\label{about-daniel-croll}
+\addcontentsline{toc}{subsection}{About Daniel Croll}
 
 \begin{quote}
-bio bio bio
+Daniel Croll joined the University of Neuchâtel, Switzerland, in 2017
+where he leads the Laboratory of Evolutionary Genetics as an Assistant
+Professor. Daniel Croll received his MSc in Biology in 2003 and his PhD
+in Life Sciences in 2009 from the University of Lausanne, Switzerland.
+He then joined the ETH Zürich as a postdoctoral fellow. Later, he
+received an Advanced Postdoctoral Fellowship from the Swiss National
+Science Foundation to work 2013-2014 at the University of British
+Columbia in Vancouver, Canada. In 2015, Daniel Croll was appointed as an
+Oberassistant (group leader) and lecturer at the ETH Zürich. At the
+University of Neuchâtel, Daniel Croll continues to investigate the
+evolutionary dynamics of disease emergence in agricultural ecosystems.
+The main interests include the dissection of phenotypic traits using
+genome-wide association mapping, the mechanisms of rapid genome
+evolution and the signatures of recent adaptive evolution.
 \end{quote}
 
 \section*{Practical Session - Practical Session
-Title}\label{practical-session---practical-session-title-1}
+Title}\label{practical-session---practical-session-title}
 \addcontentsline{toc}{section}{Practical Session - Practical Session
 Title}
 
@@ -1736,13 +1855,13 @@ Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
 \addcontentsline{toc}{section}{Keynote Lecture}
 
 \subsection*{Keynote Speaker Name - Keynote Speaker
-Title}\label{keynote-speaker-name---keynote-speaker-title-2}
+Title}\label{keynote-speaker-name---keynote-speaker-title}
 \addcontentsline{toc}{subsection}{Keynote Speaker Name - Keynote Speaker
 Title}
 
 \textbf{Keynote Speaker Affiliation}
 
-\subsection*{About Keynote Speaker}\label{about-keynote-speaker-2}
+\subsection*{About Keynote Speaker}\label{about-keynote-speaker}
 \addcontentsline{toc}{subsection}{About Keynote Speaker}
 
 \begin{quote}
@@ -1750,7 +1869,7 @@ bio bio bio
 \end{quote}
 
 \section*{Practical Session - Practical Session
-Title}\label{practical-session---practical-session-title-2}
+Title}\label{practical-session---practical-session-title-1}
 \addcontentsline{toc}{section}{Practical Session - Practical Session
 Title}
 
@@ -1839,22 +1958,75 @@ Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
 \section*{Keynote Lecture}\label{keynote-lecture-7}
 \addcontentsline{toc}{section}{Keynote Lecture}
 
-\subsection*{Keynote Speaker Name - Keynote Speaker
-Title}\label{keynote-speaker-name---keynote-speaker-title-3}
-\addcontentsline{toc}{subsection}{Keynote Speaker Name - Keynote Speaker
-Title}
+\subsection*{Beat Keller - Molecular analysis of wheat -- fungal
+pathosystems and applications in resistance
+breeding}\label{beat-keller---molecular-analysis-of-wheat-fungal-pathosystems-and-applications-in-resistance-breeding}
+\addcontentsline{toc}{subsection}{Beat Keller - Molecular analysis of
+wheat -- fungal pathosystems and applications in resistance breeding}
 
-\textbf{Keynote Speaker Affiliation}
+\textbf{Department of Plant and Microbial Biology, University of Zürich,
+Switzerland}
 
-\subsection*{About Keynote Speaker}\label{about-keynote-speaker-3}
-\addcontentsline{toc}{subsection}{About Keynote Speaker}
+Several hundred resistance genes against fungal diseases have been
+genetically described in the gene pool of wheat and a few of them have
+been cloned. The molecular analysis of their origin, diversity and
+function has resulted in insight on their evolution and also suggested
+better ways for their use in classical as well as molecular breeding.
+For example, the discovery of molecular suppressor activities of certain
+powdery mildew resistance genes has resulted in a better understanding
+of earlier observations in wheat breeding and allows to predict breeding
+outcomes. The current focus of our work is on two different aspects of
+disease resistance in wheat: first we study the molecular basis of
+durable disease resistance and we focus here on the \emph{Lr34} gene
+which was originally described as a QTL for durable, quantitative
+disease resistance against the fungal pathogen leaf rust. Second, we are
+analyzing at the molecular level the interaction of wheat and the fungal
+pathogen powdery mildew. This work also includes the identification of
+pathogen determinants that are involved in resistance. The new
+developments in wheat genomics including the availability of a
+high-quality reference genome sequence allow us to develop more
+efficient ways to isolate resistance genes. There is a rapidly
+increasing number of innovative new approaches to clone genes from the
+wheat genome which I will discuss briefly, and we can expect many more
+resistance genes being isolated in the near future. The consequences of
+these developments for a better use of genetic diversity in wheat
+resistance breeding will be discussed. The molecular diversity that has
+been revealed by studies on agronomically important resistance genes can
+inspire a number of research directions to improve resistance breeding.
+For example, natural diversity provides important clues how to engineer
+immune receptors for broader recognition spectrum. Furthermore,
+modification of gene expression as well as combination of genes using
+transgenic approaches has revealed novel ways to improve disease
+resistance. Several of these approaches will be presented for the case
+of leaf rust and powdery mildew resistance in wheat.
+
+\subsection*{About Beat Keller}\label{about-beat-keller}
+\addcontentsline{toc}{subsection}{About Beat Keller}
 
 \begin{quote}
-bio bio bio
+Dr.~Keller received his PhD from the University of Basel, Switzerland,
+in 1985, and then was postdoctoral fellow at the Salk Institute for
+Biological Studies in La Jolla, San Diego with a long-term fellowship of
+the European Molecular Biology Organization. After returning to Europe
+he started a research group in collaboration with the wheat breeding
+program in Switzerland and became a full professor for Plant Molecular
+Biology at the University of Zurich in 1997. The group of Dr.~Keller has
+focused on the molecular understanding of fungal disease resistance in
+the wheat, maize and barley crop plants. This has resulted in the
+molecular identification of a number of agronomically important
+resistance genes. More recently, the group has started a large project
+on the wheat powdery mildew pathogen to understand resistance at the
+molecular level. In addition, fungal pathogenomics is used to study the
+evolution of this highly host-specific pathogen. Dr.~Keller was
+Vice-president of the Swiss Academy of Sciences from 2000-2006, has led
+several large research consortia in Switzerland and was an ERC Advanced
+Investigator grant holder from 2010 to 2015. He is a member of the
+Research Council of the Swiss National Science Foundation and currently
+Head of the Division of Biology at the University of Zurich.
 \end{quote}
 
 \section*{Practical Session - Practical Session
-Title}\label{practical-session---practical-session-title-3}
+Title}\label{practical-session---practical-session-title-2}
 \addcontentsline{toc}{section}{Practical Session - Practical Session
 Title}
 

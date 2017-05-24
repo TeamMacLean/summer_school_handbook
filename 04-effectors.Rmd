@@ -4,33 +4,42 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.
-
-Aenean sed leo sit amet dolor congue semper. Curabitur non malesuada erat. Phasellus scelerisque rutrum tristique. Duis posuere quam tellus, eu posuere lorem convallis facilisis. Duis euismod tincidunt neque, eu pellentesque nisi mollis sed. Suspendisse eu nunc rutrum massa iaculis rhoncus rutrum nec velit. Nulla et erat quis urna malesuada auctor. Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
-
-```{r maineff, echo=FALSE, fig.cap="This image should really be one that nicely summarises your topic. Not Roger.", dpi=96 }
-knitr::include_graphics("assets/RPF-thumbnail.jpeg")
-```
-
 ## Keynote Lecture {-}
 
-### Keynote Speaker Name - Keynote Speaker Title {-}
+### Jens Boch - Keynote Speaker Title {-}
 **Keynote Speaker Affiliation**
 
-### About Keynote Speaker {-}
+### About Jens Boch {-}
 
 > bio bio bio
 
-## Practical Session - Practical Session Title {-}
+## Practical Session - Studying Effector Function _in planta_ {-}
 
-**Led by Practical Session Lead**
+**Led by Joe Win**
+
+One of nature’s many secrets in biology is how filamentous plant pathogens cause disease on their hosts. We are making tremendous progress towards understanding  this process largely due to breakthroughs in “effector biology” [@Hogenhout:2009em; @Win:2012jd]. Effectors are proteins secreted by pathogens to suppress host immune systems and manipulate plant physiology to enable pathogen colonization (Figure \@ref(fig:maineff)A).
+
+
+(ref:efffig) ***The concept of effectors in plant immunity***. Infectious pathogens such as bacteria, fungi, oomycete, and nematodes deliver effectors at the interface of the host plant (apoplastic effectors, AE) or inside the cell (cytoplasmic effectors, CE). Host-translocated (cytoplasmic) effectors are delivered into the host cytoplasm through a type-III secretion pilus or specialized infectious structures called haustoria that form within the cell. Pathogen effectors traffic to various compartments, bind, and manipulate different host proteins called targets. Depending on their localization in the cells, these targets are designated as apoplastic effector target (AET) and cytoplasmic effector target (CET). Effector–target interactions impact the outcome of the interaction between the pathogen and its host. In susceptible genotypes (A), these molecular interactions can alter plant cell processes and suppress immune responses, leading to effector-triggered susceptibility (ETS) and host colonization. In resistant genotypes (B), these interactions are perceived by key sensing receptors of the immune system that, in turn, stop pathogen growth. Cell surface pattern recognition receptors (PRRs) detect pathogen-associated molecular patterns (PAMPs), apoplastic effectors, and/or apoplastic effector–target interactions to initiate PRRtriggered immunity (PTI). Intracellular nucleotide-binding receptors (NB-LRR) induce NB-LRR-triggered immunity (ETI) on recognition of cytoplasmic effectors and/or cytoplasmic effectors–target interactions (Reproduced from @Win:2012jd).
+
+```{r maineff, echo=FALSE, fig.cap="(ref:efffig)", dpi=400 }
+knitr::include_graphics("assets/eff.png")
+```
+
+We can predict an “effectorome”, or effector repertoire, of a pathogen from its genome sequence based on several criteria that we know about effectors [@Saunders:2012bw]. These criteria include,  presence of a secretory signal peptide, lack of transmembrane domains, lack of mitochondrial targeting signals, presence of known/conserved motifs such as RXLR, upregulation of their transcripts during infection, specific localization in host cells, similarity to known effectors of other plant pathogen species, etc. However, one persistent question is: What are the intrinsic functions of these effectors? To find out, we express tagged effectors in plants and observe their effect on plant morphology and physiology [such as hypersensitive response (HR) cell death] using a technique called the agrobacteria-mediated transient transformation procedure [@Kapila:1997], also known as agroinfiltration. In addition, to work out what these effectors might be doing in plants, we derive clues from the effector-associated plant proteins that we identify by performing co-immunoprecipitation (co-IP) of tagged effectors followed by mass spectrometry (MS) [@Win:2011dw]. These plant proteins constitute potential targets of the effectors. We confirm the association between the effectors and the potential targets in an independent system known as yeast-two-hybrid interaction assays [@Fields:1989dm], or in vitro interaction assays. Once we know the effector targets, we investigate them to find out if they play important roles in plant-pathogen interactions by knocking down their transcripts in plants by virus-induced gene silencing (VIGS) [@Lindbo:1993kp] and observing the effects on plant responses to infection. 
+
+We are also interested in how plants defend themselves against pathogens, and how the pathogens suppress these defences. Plant immunity is governed by recognition of effectors by plant immune receptors (Figure \@ref(fig:maineff)B). Once recognized, several signalling processes are initiated by the receptors and defence is mounted against the invading pathogen. We have identified a novel network of plant immune components that is involved in defence signalling of Solanaceous plants [@Wu:2016bio]. We study their function and activities by deploying the methods such as co-IP, HR assays and VIGS as described above.
+
+In these practical sessions, we will guide you through the techniques and methods described above to probe plant-microbe interactions with a focus on effectors and plant immunity.
 
 ### Aims and Objectives {-}
 
-1. Teach
-2. Learn
-3. Profit
+  1. To be familiar with current knowledge of effectors and their roles in infection of host plants.
+  2. To understand the roles of helper components in plant immune signalling network.
+  3. To understand the theory and practice of methods and techniques that are routinely used to study effectors and plant immunity
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+In this practical session, you will be invited to choose one of the following techniques for hands-on experience guided by the instructors.
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.
+  1. In planta co-immunoprecipitation of effectors and associated plant proteins, and analysis of effector-plant protein interactions in vitro
+  2. Yeast two-hybrid assay to study protein-protein interaction
+  3. Agroinfiltration and virus-induced gene silencing to study gene functions in plants

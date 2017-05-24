@@ -16,12 +16,20 @@ knitr::include_graphics("assets/RPF-thumbnail.jpeg")
 
 ## Keynote Lecture {-}
 
-### Keynote Speaker Name - Keynote Speaker Title {-}
-**Keynote Speaker Affiliation**
+### Beat Keller - Molecular analysis of wheat – fungal pathosystems and applications in resistance breeding {-}
+**Department of Plant and Microbial Biology, University of Zürich, Switzerland**
 
-### About Keynote Speaker {-}
+Several hundred resistance genes against fungal diseases have been genetically described in the gene pool of wheat and a few of them have been cloned. The molecular analysis of their origin, diversity and function has resulted in insight on their evolution and also suggested better ways for their use in classical as well as molecular breeding. For example, the discovery of molecular suppressor activities of certain powdery mildew resistance genes has resulted in a better understanding of earlier observations in wheat breeding and allows to predict breeding outcomes. The current focus of our work is on two different aspects of disease resistance in wheat: first we study the molecular basis of durable disease resistance and we focus here on the _Lr34_ gene which was originally described as a QTL for durable, quantitative disease resistance against the fungal pathogen leaf rust. Second, we are analyzing at the molecular level the interaction of wheat and the fungal pathogen powdery mildew. This work also includes the identification of pathogen determinants that are involved in resistance. 
+The new developments in wheat genomics including the availability of a high-quality reference genome sequence allow us to develop more efficient ways to isolate resistance genes. There is a rapidly increasing number of innovative new approaches to clone genes from the wheat genome which I will discuss briefly, and we can expect many more resistance genes being isolated in the near future. The consequences of these developments for a better use of genetic diversity in wheat resistance breeding will be discussed.
+The molecular diversity that has been revealed by studies on agronomically important resistance genes can inspire a number of research directions to improve resistance breeding. For example, natural diversity provides important clues how to engineer immune receptors for broader recognition spectrum. Furthermore, modification of gene expression as well as combination of genes using transgenic approaches has revealed novel ways to improve disease resistance. Several of these approaches will be presented for the case of leaf rust and powdery mildew resistance in wheat.
 
-> bio bio bio
+
+### About Beat Keller {-}
+
+> Dr. Keller received his PhD from the University of Basel, Switzerland, in 1985, and then was postdoctoral fellow at the Salk Institute for Biological Studies in La Jolla, San Diego with a long-term fellowship of the European Molecular Biology Organization. After returning to Europe he started a research group in collaboration with the wheat breeding program in Switzerland and became a full professor for Plant Molecular Biology at the University of Zurich in 1997.
+The group of Dr. Keller has focused on the molecular understanding of fungal disease resistance in the wheat, maize and barley crop plants. This has resulted in the molecular identification of a number of agronomically important resistance genes. More recently, the group has started a large project on the wheat powdery mildew pathogen to understand resistance at the molecular level. In addition, fungal pathogenomics is used to study the evolution of this highly host-specific pathogen.
+Dr. Keller was Vice-president of the Swiss Academy of Sciences from 2000-2006, has led several large research consortia in Switzerland and was an ERC Advanced Investigator grant holder from 2010 to 2015. He is a member of the Research Council of the Swiss National Science Foundation and currently Head of the Division of Biology at the University of Zurich.
+
 
 ## Practical Session - Practical Session Title {-}
 
