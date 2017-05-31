@@ -16,13 +16,16 @@ knitr::include_graphics("assets/algo.png")
 
 ## Keynote Lecture {-}
 
-### Diane Saunders - Field Pathogenomics {-}
+### Diane G.O. Saunders - Developing new tools for interrogating cereal invaders {-}
 
 **John Innes Centre, Norwich, UK**
 
+Emerging and re-emerging pathogens pose a continuous threat to food security and human health. Recent advances in next-generation sequencing technologies have provided new opportunities to integrate genomics into the tracking of emerging filamentous plant pathogens. This approach is particularly valuable for analysing rust pathogens, which are frequently obligate biotrophs that cannot be axenically cultured in the laboratory environment. Accordingly, we are leading the genome sequencing of hundreds of isolates of the wheat yellow rust pathogen _Puccinia striiformis f. sp. tritici_ (PST), aimed at improving our understanding of the molecular mechanisms that drive PST evolution. Furthermore, we have developed a robust and rapid “field pathogenomics” strategy to improve filamentous pathogen surveillance. Using gene sequencing of PST-infected wheat leaves taken directly from the field, this technique enabled us to gain insight into the population structure of PST over successive seasons. Our analysis uncovered a dramatic shift in the PST population in the UK and supports the hypothesis that a recent introduction of a diverse set of exotic PST lineages may have displaced the previous populations. Furthermore, we uncovered potential seasonal and varietal specificity for specific genotypes of PST. Our discovery of wheat variety susceptibility to specific _P. striiformis_ isolates that are prevalent at certain times of the year could have considerable impact on directing future disease management approaches.
+
+
 ### About Diane Saunders {-}
 
-> bio bio bio
+> Dr. Saunders received her BSc degree from Exeter University where she continued her studies to PhD level in the pioneering laboratory of Prof. Nick Talbot. After receiving her PhD in 2009 she joined Prof. Sophien Kamoun’s group at The Sainsbury laboratory (TSL) to continue to pursue her interest in the molecular mechanisms that underpin plant-pathogen interactions. Following an early career Leverhulme fellowship at TSL she was awarded a research fellowship from the Earlham Institute and the John Innes Centre to develop her own research group with a focus on emerging and re-emerging plant pathogens. She was then appointed as Project Leader at the John Innes Centre in 2017 where she continues to pursue a multi-disciplinary approach to her research, integrating molecular genetics, microbiology, cell biology, biochemistry, genomics and data mining. In addition, she has worked on three of the most important plant diseases in the world: rice blast, potato late blight, and cereal rusts.
 
 ## Practical Session - From Sequence Data to Candidate Gene {-}
 
