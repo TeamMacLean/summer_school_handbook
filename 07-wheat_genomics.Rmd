@@ -1,4 +1,4 @@
-# Wheat Genomics {-}
+# Fuctional Plant Genomics {-}
 
 **Led by Ksenia Krasileva**
 
@@ -25,7 +25,7 @@ Most plants face attacks by pathogens. In agriculture, outbreaks of fungal disea
 
 > Daniel Croll joined the University of Neuchâtel, Switzerland, in 2017 where he leads the Laboratory of Evolutionary Genetics as an Assistant Professor. Daniel Croll received his MSc in Biology in 2003 and his PhD in Life Sciences in 2009 from the University of Lausanne, Switzerland. He then joined the ETH Zürich as a postdoctoral fellow. Later, he received an Advanced Postdoctoral Fellowship from the Swiss National Science Foundation to work 2013-2014 at the University of British Columbia in Vancouver, Canada. In 2015, Daniel Croll was appointed as an Oberassistant (group leader) and lecturer at the ETH Zürich. At the University of Neuchâtel, Daniel Croll continues to investigate the evolutionary dynamics of disease emergence in agricultural ecosystems. The main interests include the dissection of phenotypic traits using genome-wide association mapping, the mechanisms of rapid genome evolution and the signatures of recent adaptive evolution.
 
-## Practical Session - Practical Session Title {-}
+## Practical Session - Functional Plant Genomics {-}
 
 **Led by Practical Session Lead**
 
