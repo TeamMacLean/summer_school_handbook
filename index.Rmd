@@ -31,7 +31,7 @@ Over the next two weeks we will cover a wide range of topics, including:
 * Resistance Proteins
 * Cellular Defence
 * Proteomics
-* Wheat Genomics
+* Functional Plant Genomics
 * Translation to the field
 
 We hope that you will find the whole exercise enlightening and educational and perhaps also a little fun.
