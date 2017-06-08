@@ -120,7 +120,7 @@ pander::pander(day[,2:4], justify = c('left', 'left', 'left'))
 
 ```
 
-*Wheat Genomics. Led by Ksenia Krasileva*
+*Functional Plant Genomics. Led by Ksenia Krasileva*
 
 ```{r, echo=FALSE}
 

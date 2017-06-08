@@ -4,14 +4,12 @@
 
 *Adopting new wheat genomic tools to dissect plant innate immunity*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+Almost every week a new plant genome becomes available. Expansion of genomic data is mostly due to recent advances in sequencing technologies that have greatly leveraged the field between model and non-model organisms. Bread wheat (_Triticum aestivum_) is a plant of immense agronomic value with a highly complex 17 Gb allohexaploid genome. Recent development of new sequencing and genome assembly approaches greatly reduced the time and resources needed to assemble wheat genome and 6 genomes of different wheats are already available, allowing for in depth comparative analyses. Moreover, development of exome capture assay (targeted sequencing of gene space) allowed establishing reverse genetics resources for wheat as well as rapid mapping-by-sequencing identification of mutations from forward genetic screens.
+ 
+Availability of genome of wheat and many other plant species allowed us to elucidate evolutionary history of plant immune receptors of Nucleotide-Binding Leucine Rich Repeat class (NLRs). A recent paradigm in NLR-based recognition of pathogen derived effectors involves NLRs with exogenous integrated domains (NLR-IDs) that can serve as baits for effectors by mimicking plant proteins that pathogens target. We have shown that NLR-IDs are prevalent across flowering plants and identified their ID repertoires. This information now allows us to a) search for new effectors b) predict host susceptibility genes normally targeted by pathogens (Figure \@ref(fig:mainwg)). 
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.
-
-Aenean sed leo sit amet dolor congue semper. Curabitur non malesuada erat. Phasellus scelerisque rutrum tristique. Duis posuere quam tellus, eu posuere lorem convallis facilisis. Duis euismod tincidunt neque, eu pellentesque nisi mollis sed. Suspendisse eu nunc rutrum massa iaculis rhoncus rutrum nec velit. Nulla et erat quis urna malesuada auctor. Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
-
-```{r mainwg, echo=FALSE, fig.cap="This image should really be one that nicely summarises your topic. Not Roger.", dpi=96 }
-knitr::include_graphics("assets/RPF-thumbnail.jpeg")
+```{r mainwg, echo=FALSE, fig.cap="The NLR Integrated Domain Paradigm", dpi=96 }
+knitr::include_graphics("assets/kk_fig1.pdf")
 ```
 
 ## Keynote Lecture {-}
@@ -27,14 +25,17 @@ Most plants face attacks by pathogens. In agriculture, outbreaks of fungal disea
 
 ## Practical Session - Functional Plant Genomics {-}
 
-**Led by Practical Session Lead**
+**Led by Erin Baggs and Elisha Thynne**
 
 ### Aims and Objectives {-}
 
-1. Teach
-2. Learn
-3. Profit
+1. Become familiar with web-servers and command line tools for protein family analyses
+2. Understand  how to produce and critically assess a local sequence alignment and phylogeny
+3. Be able to scan genomes for sequences with particular domains and understand their evolutionary origin
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+The aim of this practical session is to analyse given NLR-IDs as examples of proteins with complex evolutionary histories and be able to robustly identify the origins of integrated domains. Each student will be given an NLR-ID sequences previously identified from our genomic screens, and will analyse the origin of IDs through genomics and phylogenetics, predicting what parental gene it might have originated from. We will also guide you through  how to run our r_gene NLR-ID scan pipeline (Sarris et al 2016) on a new genome which will allow you to identify all NLRs and all NLR-IDs from a given proteome. By the end of the practical we hope you should be able to investigate evolutionary history of a protein and gain skills in protein family analyses.
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.
+The practical will be centred around a biological question of identifying the origin of integrated domains and predicting parental genes from which they are derived. The parental genes may in some instances represent potential pathogen targets, in which are case they could be considered host susceptibility genes. The practical will be organized in exercises in different levels to match your skillsets. Our exercises will take you through the steps of identifying conserved domains present in a protein of interest and show you how to identify all sequences in an organism of interest with that domain. Then we will show you how these sequences can form the basis for an alignment from which you can generate a phylogeny. At all steps we will highlight tools, such as BioMart, which will allow you to complete the task with little bioinformatic skill required. The session will also offer the chance to use command line tools and scripts available on github which allow for greater flexibility and control over the data you generate. The practicals modular composition should allow you to apply many of the tools introduced to you to your own biological questions. 
+
+At the end of the session, we can demonstrate how you can obtain a knockout of your identified putative susceptibility gene in wheat by using www.wheat-tilling.com reserse genetics resource.
+

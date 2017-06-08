@@ -15,12 +15,19 @@ knitr::include_graphics("assets/prot1.png")
 
 ## Keynote Lecture {-}
 
-### Keynote Delphine Pflieger - Keynote Speaker Title {-}
+### Delphine Pflieger - Quantitative phosphoproteomic analysis reveals shared and specific targets of Arabidopsis MAPkinases MPK3, MPK4 and MPK6 {-}
+
 **Commissariat à l'énergie atomique et aux énergies alternatives (CEA), Grenoble, France**
 
-### About Keynote Speaker {-}
+In Arabidopsis, mitogen-activated protein kinases MPK3, MPK4 and MPK6 constitute essential relays for a variety of functions including cell division, development and innate immunity. While some substrates of MPK3, MPK4 and MPK6 have been identified, the picture is still far from complete.
+To identify the substrates of these MAPKs in cell division, growth and development we compared the cytosolic and chromatin-linked phosphoproteomes of wild-type and mpk3, mpk4 and mpk6 mutant plants. To study the function of these MAPKs in innate immunity, we analyzed their phosphoproteomes following activation by a microbe-associated molecular pattern (MAMP).
+We identified 152 differentially phosphorylated peptides in cytosolic fractions, in response to MAMP treatment and/or when compared between genotypes. 70 of these could be classified as putative MAPK targets, with phosphosites that are specific to one or shared by several MAPKs. Biochemical analysis of a number of putative MAPK substrates by phosphorylation and interaction assays confirmed our global phosphoproteome approach. Finally, we examined in detail the unknown function protein AYL1 (AT5G43830), confirming that it is a MAPK target and plays a role in defense responses. The results obtained on the fraction of chromatin-linked phosphoproteins confirm the picture obtained in the cytosol: in particular, the most dramatic effect on the phosphoproteome is observed in the mpk6 deletion mutant. 
+In conclusion, partially overlapping substrate networks were retrieved for all three MAPKs, showing target specificity to one, two or all three MAPKs in different biological processes. Interestingly, we unveil the fact that within a given protein substrate, different phosphosites may be modified by one specific MAPK or by several of the three MAPKs. Our study also expands the set of novel MAPK substrates and functions to other involved protein kinases, including calcium-dependent (CDPK) and sugar non-fermenting (SnRK) protein kinases.
 
-> bio bio bio
+### About Delphine Pflieger {-}
+
+> Delphine Pflieger is a French researcher who followed the boom of proteomics since the early 2000s, by defending a PhD in 2004 on the use of the coupling between liquid chromatography and mass spectrometry (LC-MS) as a very robust and versatile approach for protein sample characterization. After completing her PhD of Analytical Chemistry in Paris (University Paris VI), she joined the group of Prof. Ruedi Aebersold, starting at the Institute for Systems Biology in Seattle and then participating in the establishment of a new laboratory in ETH Zürich. During this post-doctoral experience, she was in particular interested in developing a proteomics method to better study imperfectly affinity-purified protein complexes and their phosphorylations. In 2006, she got a researcher position at CNRS (Centre National de Recherche Scientifique) in Evry, in the Parisian suburb. In tight collaboration with the group of Heribert Hirt, she developed there phosphoproteomic analyses to decipher the signaling cascades triggered in _Arabidopsis thaliana_ when the plant is subjected to a simulation of pathogen attack. The team analyzed the cytosolic part of the cascades but also gave a special focus on the events occurring in the vicinity of chromatin, to connect the very end of the signaling pathways with the rewiring of the transcriptional program [@Bigeard:2014bl; @Bigeard:2014df; @Rayapuram:2014dc]. This collaborative work is still on-going. Since her move to Grenoble in September 2014, Delphine Pflieger however developed new interests in the more specific analysis of histones, key constituents of chromatin, both in terms of variants and of their multiplicity of post-translational modifications. 
+
 
 ## Practical Session - Analysing and interpreting mass spec data  {-}
 
