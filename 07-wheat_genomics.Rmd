@@ -9,7 +9,7 @@ Almost every week a new plant genome becomes available. Expansion of genomic dat
 Availability of genome of wheat and many other plant species allowed us to elucidate evolutionary history of plant immune receptors of Nucleotide-Binding Leucine Rich Repeat class (NLRs). A recent paradigm in NLR-based recognition of pathogen derived effectors involves NLRs with exogenous integrated domains (NLR-IDs) that can serve as baits for effectors by mimicking plant proteins that pathogens target. We have shown that NLR-IDs are prevalent across flowering plants and identified their ID repertoires. This information now allows us to a) search for new effectors b) predict host susceptibility genes normally targeted by pathogens (Figure \@ref(fig:mainwg)). 
 
 ```{r mainwg, echo=FALSE, fig.cap="The NLR Integrated Domain Paradigm", dpi=96 }
-knitr::include_graphics("assets/kk_fig1.pdf")
+knitr::include_graphics("assets/kk_fig1.png")
 ```
 
 \newpage

@@ -8,12 +8,28 @@ The plasma membrane-associated receptor-like cytoplasmic kinase (RLCK) BIK1 is a
 
 ## Keynote Lecture {-}
 
-### Stefanie Ranf - Signalling in Plant Innate Immunity {-}
-**Technische Universitat Munchen**
+### Stefanie Ranf - Specificity of LORE-dependent lipopolysaccharide immune sensing in Arabidopsis {-}
+**Phytopathology, TUM School of Life Sciences, Technical University of Munich, Freising-Weihenstephan, Germany**
+
+Innate immunity, triggered upom recognition of microbe-associated molecular patterns (MAMPs) by specific host receptors, is crucial for animals and plants. Cell surface components such as lipopolysaccharide (LPS), peptidoglycan and flagellin are typical MAMPs as they are vital for microbial survival and common to whole microbial classes. LPS, in particular the endotoxic lipid A moiety, of Gram-negative bacteria is sensed as MAMP in mammals through different extra- and intracellular LPS receptors. Recently, we found that the receptor-like kinase LORE (LipoOligosaccharide-specific Reduced Elicitation), which belongs to the plant-specific class of bulb-type lectin S-domain-1 kinases (SD1-RLKs), mediates sensitive perception of Pseudomonas LPS in Arabidopsis. The lipid A moiety from Pseudomonas LPS alone is sufficient to induce LORE-dependent immune responses.
+Interestingly, LORE specifically senses Pseudomonas and Xanthomonas but not the typical enterobacterial LPS e.g. of Escherichia coli. In mammals, on the contrary, enterobacterial LPS is the most potent immune activator, whereas Pseudomonas LPS is only a weak agonist due to structural differences within the lipid A. Thus, both mammals and plants evolved to sense LPS via its lipid A moiety but, apparently, with distinct epitope specificities and through structurally unrelated receptors. 
+
 
 ### About Stefanie Ranf {-}
 
-> bio bio bio
+> Since March 2016 - Independent Emmy-Noether group leader at the Technical University of Munich, Chair of Phytopathology
+>
+> Jan. 2013 – Feb. 2016 - Junior group leader at the Technical University of Munich, Chair of Phytopathology, Prof. Dr. Ralph Hückelhoven
+>
+> May 2011 – Dec. 2012 - Postdoctoral research with Prof. Dr. Dierk Scheel and Dr. Justin Lee, Department of Stress and Developmental Biology, Institute of Plant Biochemistry (IPB), Halle (Saale)
+>
+> Jan. 2005 – Apr. 2011 - Ph.D. thesis with Prof. Dr. Dierk Scheel and Dr. Justin Lee, Department of Stress and Developmental Biology, Institute of Plant Biochemistry (IPB), Halle (Saale)
+>
+> Oct. 2003 – Dec. 2004 - Research fellow with Prof. Dr. Johannes Stratmann, University of South Carolina, USA
+>
+> Oct. 1998 – Feb. 2003 - Studies of Biochemistry at the Universität Regensburg 
+
+\newpage
 
 ## Practical Session - Analysing Surface Immunity {-}
 
