@@ -4,14 +4,13 @@
 
 *Exploiting Knowledge of Plant Pathogen Interactions for Durable Disease Resistance*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis sagittis metus quis malesuada. Vestibulum laoreet vel tortor at tempor. Mauris blandit volutpat risus, et placerat odio varius eget. Cras vitae diam sollicitudin justo vehicula ultrices. Curabitur consequat ornare odio ac hendrerit. Mauris bibendum diam nec gravida molestie. Nullam interdum, nulla eget sollicitudin elementum, ante lorem auctor odio, sit amet varius diam magna et lectus. Sed vehicula velit velit, convallis mollis erat laoreet nec. Cras semper blandit felis vel iaculis. Sed in mollis nulla. Nulla sed egestas odio, nec finibus lectus. In vel porttitor lacus, nec tincidunt neque. Suspendisse at magna non neque congue fermentum at ut augue. Vivamus suscipit finibus tortor, ut accumsan dui pretium nec. Integer luctus eros non convallis ornare.
+In this module we will go into detail about how key insights can be used to breed and engineer resistant crops and develop durable disease solutions. We will discuss how pathogen genomics and knowledge of effectors can lead to an informed deployment of R genes and how effector biology can be used to accelerate breeding programs. We will discuss examples where resistance has been transferred between plant species to introduce novel resistance specificities [@Kawashima:2016hx; @Lacombe:2010ga; @Tai:1999wa]. We will also discuss the strengths and weaknesses of classical breeding. 
 
-Pellentesque dapibus arcu rutrum neque tempor, ac consequat nisi consectetur. Nunc eu tortor sed lorem vehicula finibus. Sed sed lacus at erat fringilla auctor. Aenean malesuada mi est, sit amet molestie ante malesuada in. Aenean elit risus, imperdiet quis pretium ac, imperdiet a turpis. Praesent cursus, orci a viverra tincidunt, augue tortor volutpat erat, a elementum nisi ante vel nisl. Vestibulum purus nisl, imperdiet egestas ultricies nec, tempor vitae ligula. Integer dapibus magna vitae orci pharetra rhoncus. Vestibulum in mauris feugiat, pulvinar massa ac, convallis lacus. In hac habitasse platea dictumst.
+In the first session, we will introduce the current status of agricultural systems and how our approach to plant breeding effects our ability to maintain disease resistance. Current approaches rely on identifying resistance in elite, landrace, and wild cultivars, identifying markers associated with resistance, and the use of marker-assisted selection to introduce resistance into elite accessions. While natural variation has been the primary source of resistance, pioneering work in nonhost species has paved the way forward for accessing a broader range of resistance genes for agriculture. We will discuss how recent technology including high-throughput sequencing, transformation, gene editing, and synthetic biology will improve our ability to engineer next-generation crops. 
 
-Aenean sed leo sit amet dolor congue semper. Curabitur non malesuada erat. Phasellus scelerisque rutrum tristique. Duis posuere quam tellus, eu posuere lorem convallis facilisis. Duis euismod tincidunt neque, eu pellentesque nisi mollis sed. Suspendisse eu nunc rutrum massa iaculis rhoncus rutrum nec velit. Nulla et erat quis urna malesuada auctor. Vestibulum sit amet diam maximus, luctus nulla mollis, vestibulum nisi.
+A comprehensive disease management strategy requires a detailed understanding of the interaction between pathogens and their host or hosts. As pathogens are diverse, the above outlined strategies require fine-tuning and rethinking for each individual situation. Novel incursions are particularly dangerous as they can hit unexpectedly, spread rapidly, and can cause a great deal of damage long before we can even begin to understand the pathogen and determine an effective plan of action. Globalization and climate change are major drivers of new incursions as habitats of pathogens or their vectors shift. Global trade and travel enables rapid spread of microbes from one habitat to another. A rapid identification of a novel pathogen is the first step to mount an effective and informed response by scientist, breeders and farmers. After this long term solutions need to be designed and put in place that require in depth knowledge on plant-pathogen interactions. In the second session, as a creative exercise, we will work on a long-term solution to a current disease problem.
 
-```{r maint, echo=FALSE, fig.cap="This image should really be one that nicely summarises your topic. Not Roger.", dpi=96 }
-knitr::include_graphics("assets/RPF-thumbnail.jpeg")
+In the final part of this module we shall explore how personal development and career choices can deviate from the classic academic route.  We realize that to successfully meet the challenges faced by agriculture in the coming years, leaders on all levels and aspects of agriculture will be required. As scientist are highly educated creative thinkers they are ideal candidates to take up leadership roles in large corporations or become successful entrepreneurs in start-up companies. We believe it is crucial to have the abilities define a career path in which you can excel and therefore we would like to spend the last lecture of this summer school on this forward thinking topic. 
 ```
 
 ## Keynote Lecture {-}
@@ -31,15 +30,28 @@ The group of Dr. Keller has focused on the molecular understanding of fungal dis
 Dr. Keller was Vice-president of the Swiss Academy of Sciences from 2000-2006, has led several large research consortia in Switzerland and was an ERC Advanced Investigator grant holder from 2010 to 2015. He is a member of the Research Council of the Swiss National Science Foundation and currently Head of the Division of Biology at the University of Zurich.
 
 
-## Practical Session - Practical Session Title {-}
+## Practical Session - QTL Analysis  {-}
 
 **Led by Matt Moscou**
 
 ### Aims and Objectives {-}
 
-1. Understand different methods for resistance loci
-2. Introduce basic R packages for QTL analysis
-3. Understand how to link genotype (genetic maps) with phenotype (continuous/discrete measurements) with packages.
+  1. Introduction to genetics through practice.
+  2. Introduce basic R packages for QTL analysis, understand how to link genotype (genetic maps) with phenotype (continuous/discrete measurements) with R/qtl.
 
-Mendelian inheritance of resistance to plant pathogens was first established by Sir Roland Henry Biffen in 1907. By the end of the 20th century, the link of phenotype and genotype was established by map-based cloning of plant resistance genes to a range of plant pathogens. Although substantial advances have been made in cloning resistance genes from model species with small genomes, technical hurdles still exist for large complex genomes that may have little or no sequence information. This practical will consist of a general introduction of the different methodologies and approaches for identifying loci contributing to resistance in complex uncharacterized genomes and a tutorial on using R/qtl to link genotype (genetic maps) with phenotype (both quantitative and qualitative data).
+## Practical Session - Designing Durable Disease Solutions  {-}
 
+**Led by Peter van Esse**
+
+### Aims and Objectives {-}
+
+  1. Familiarize ourselves with lateral thinking
+  2. Brainstorm on potential solutions for a current disease problem in agriculture
+
+#### Further Reading {-}
+
+The impact of crop protection on agricultural production, @Popp:102401
+
+Mendel's laws of inheritance and wheat breeding, @biffen_1905
+
+Pathogen population genetics, evolutionary potential, and durable resistance, @McDonald:2002da
