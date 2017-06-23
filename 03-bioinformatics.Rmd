@@ -10,7 +10,7 @@ Sequence data are used in a wide range of applications and the source molecule w
 
 (ref:denovo) Graphical summary of a _de novo_ assembly algorithm. Sequence reads are broken down into constituent _k_-mers and a network of overlapping _k_-mers is produced. The paths in the graph are traversed and the _k_-mers collected into a growing string representing a long sequence in the original data and therefore genome.
 
-```{r mainbio, echo=FALSE, fig.cap="(ref:denovo)", dpi=250 }
+```{r mainbio, echo=FALSE, fig.cap="(ref:denovo)", dpi=300 }
 knitr::include_graphics("assets/algo.png")
 ```
 

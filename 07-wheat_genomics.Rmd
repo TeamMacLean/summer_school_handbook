@@ -5,12 +5,12 @@
 *Adopting new wheat genomic tools to dissect plant innate immunity*
 
 Almost every week a new plant genome becomes available. Expansion of genomic data is mostly due to recent advances in sequencing technologies that have greatly leveraged the field between model and non-model organisms. Bread wheat (_Triticum aestivum_) is a plant of immense agronomic value with a highly complex 17 Gb allohexaploid genome. Recent development of new sequencing and genome assembly approaches greatly reduced the time and resources needed to assemble wheat genome and 6 genomes of different wheats are already available, allowing for in depth comparative analyses. Moreover, development of exome capture assay (targeted sequencing of gene space) allowed establishing reverse genetics resources for wheat as well as rapid mapping-by-sequencing identification of mutations from forward genetic screens.
- 
-Availability of genome of wheat and many other plant species allowed us to elucidate evolutionary history of plant immune receptors of Nucleotide-Binding Leucine Rich Repeat class (NLRs). A recent paradigm in NLR-based recognition of pathogen derived effectors involves NLRs with exogenous integrated domains (NLR-IDs) that can serve as baits for effectors by mimicking plant proteins that pathogens target. We have shown that NLR-IDs are prevalent across flowering plants and identified their ID repertoires. This information now allows us to a) search for new effectors b) predict host susceptibility genes normally targeted by pathogens (Figure \@ref(fig:mainwg)). 
 
 ```{r mainwg, echo=FALSE, fig.cap="The NLR Integrated Domain Paradigm", dpi=96 }
 knitr::include_graphics("assets/kk_fig1.png")
 ```
+
+Availability of genome of wheat and many other plant species allowed us to elucidate evolutionary history of plant immune receptors of Nucleotide-Binding Leucine Rich Repeat class (NLRs). A recent paradigm in NLR-based recognition of pathogen derived effectors involves NLRs with exogenous integrated domains (NLR-IDs) that can serve as baits for effectors by mimicking plant proteins that pathogens target. We have shown that NLR-IDs are prevalent across flowering plants and identified their ID repertoires. This information now allows us to a) search for new effectors b) predict host susceptibility genes normally targeted by pathogens (Figure \@ref(fig:mainwg)). 
 
 \newpage
 

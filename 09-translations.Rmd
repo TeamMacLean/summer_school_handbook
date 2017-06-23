@@ -1,6 +1,6 @@
 # Translations and Tipping the Balance {-}
 
-**Led by Matt Moscou and Peter Van Esse**
+**Led by Matt Moscou and Peter van Esse**
 
 *Exploiting Knowledge of Plant Pathogen Interactions for Durable Disease Resistance*
 
@@ -49,8 +49,6 @@ Dr. Keller was Vice-president of the Swiss Academy of Sciences from 2000-2006, h
 
 #### Further Reading {-}
 
-The impact of crop protection on agricultural production, @Popp:102401
-
-Mendel's laws of inheritance and wheat breeding, @biffen_1905
-
-Pathogen population genetics, evolutionary potential, and durable resistance, @McDonald:2002da
+  1. @Popp:102401, The impact of crop protection on agricultural production
+  2. @biffen_1905, Mendel's laws of inheritance and wheat breeding
+  3. @McDonald:2002da, Pathogen population genetics, evolutionary potential, and durable resistance
